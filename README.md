@@ -7,11 +7,11 @@ This is a client and server that I wrote in a Networking class to communicate in
 
 ## GROUP MEMBERS:
 
-- Ryan Baxley
-- REDACTED
-- REDACTED
-- REDACTED
-- REDACTED
+* Ryan Baxley
+* REDACTED
+* REDACTED
+* REDACTED
+* REDACTED
 
 ------------------------------------------------------------------------
 ## DESCRIPTION:
@@ -40,15 +40,15 @@ The robotClient performs the following tasks:
 ------------------------------------------------------------------------
 ## DESIGN:
 ### robotClient:
-	- The client is based on the UDPEchoClient that was used for the ValueGuesser project.
-	- It calls the issueCommands() function twice, once for N and once for N-1
-	- The issueCommands() function calls a series functions that send data, move, and turn requests to the middleWare.
-	- Those functions create a UDP connection to the middleware, and sends a UDCP request to the server.
-	- It then recieves all the messages from the middleware and saves them to file, checking sequence numbers to ensure that they are in order.
+	* The client is based on the UDPEchoClient that was used for the ValueGuesser project.
+	* It calls the issueCommands() function twice, once for N and once for N-1
+	* The issueCommands() function calls a series functions that send data, move, and turn requests to the middleWare.
+	* Those functions create a UDP connection to the middleware, and sends a UDCP request to the server.
+	* It then recieves all the messages from the middleware and saves them to file, checking sequence numbers to ensure that they are in order.
 
 ### robotServer:
-	- The server is based on both the UDPEchoServer used in the ValueGuesser and the simGet client.
-	- It runs in an infinite loop, accepting incoming UDP packets.
-	- When it recieves a packet, it verifies the robotID and parses out the request
-	- It then makes the appropriate HTTP get to the robot.
-	- It stores the HTTP response, and uses multiple UDP packets to relay the body of the response to the client.
+	* The server is based on both the UDPEchoServer used in the ValueGuesser and the simGet client.
+	* It runs in an infinite loop, accepting incoming UDP packets.
+	* When it recieves a packet, it verifies the robotID and parses out the request
+	* It then makes the appropriate HTTP get to the robot.
+	* It stores the HTTP response, and uses multiple UDP packets to relay the body of the response to the client.
