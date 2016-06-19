@@ -1,3 +1,6 @@
+# Robot Client and Server
+This is a client and server that I wrote in a Networking class to communicate instructions to virtual robots, using an original network protocol developed by our class.  I worked on it with four other students.  The original readme is below.
+
 # ROBOT PROXY CLIENT AND SERVER
 
 ----------------------------------------------------------------
