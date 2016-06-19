@@ -1,17 +1,17 @@
-ROBOT PROXY CLIENT AND SERVER
+# ROBOT PROXY CLIENT AND SERVER
 
 ----------------------------------------------------------------
 
-GROUP MEMBERS:		USERNAME:
+## GROUP MEMBERS:
 
--Ryan Baxley 		(rmbaxle)
--REDACTED
--REDACTED
--REDACTED
--REDACTED
+- Ryan Baxley
+- REDACTED
+- REDACTED
+- REDACTED
+- REDACTED
 
 ------------------------------------------------------------------------
-DESCRIPTION:
+## DESCRIPTION:
 
 The purpose of this project was to write an HTTP client that can 
 perform HTTP get requests for 7 data sources on prescribed
