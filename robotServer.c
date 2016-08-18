@@ -1,5 +1,5 @@
 /* robotServer.c
-    By Nathan Meade, Ankit Kajal, Daniel McLaughlin, Shafer LeMieux, Ryan Baxley */
+    By REDACTED, REDACTED, REDACTED, REDACTED, Ryan Baxley */
 
 #include <stdio.h>
 #include <stdlib.h>
