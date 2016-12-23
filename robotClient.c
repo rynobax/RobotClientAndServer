@@ -1,5 +1,4 @@
-/* robotClient.c
-    By Nathan Meade, Ankit Kajal, Daniel McLaughlin, Shafer LeMieux, Ryan Baxley */
+/* robotClient.c */
 
 #include <stdio.h>
 #include <stdlib.h>
